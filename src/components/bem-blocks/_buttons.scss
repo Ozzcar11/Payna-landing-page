@@ -1,0 +1,16 @@
+.button {
+   padding: 14px 40px;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   &_white {
+      background-color: #F5F6FB;
+      @media (max-width: 476px) {
+         display: none;
+      }
+   }
+   &_blue {
+      color: #fff;
+      background-color: #1F7CFF;
+   }
+}

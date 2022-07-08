@@ -1,0 +1,96 @@
+.text {
+   &__prehead {
+      font-weight: 700;
+      color: #F75C4E;
+      line-height: 24px;
+      text-align: center;
+      &-form {
+         text-align: left;
+         @media (max-width: 1248px) {
+            text-align: center;
+         }
+      }
+   }
+   &__headline {
+      font-weight: 700;
+      margin-bottom: 20px;
+      font-size: 36px;
+      line-height: 54px;
+      text-align: center;
+      @media (max-width: 476px) {
+         font-size: 28px;
+      }
+      &-hero{
+         max-width: 450px;
+         font-size: 55px;
+         line-height: 82.5px;
+         text-align: left;
+         @media (max-width: 1248px) {
+            margin: 0 auto 20px;
+            text-align:  center;
+         }
+         @media (max-width: 476px) {
+            max-width: 250px;
+            margin: 0 0 20px 0;
+            font-size: 28px;
+            line-height: 57px;
+            text-align: left;
+         }
+      }
+      &-grid {
+         margin: 0 0 12px 80px;
+         font-size: 20px;
+         line-height: 30px;
+         text-align: left;
+      }
+      &-form {
+         font-size: 36px;
+         line-height: 54px;
+         text-align: left;
+         margin-top: 6px;
+         @media (max-width: 1248px) {
+            margin: 0 auto 20px;
+            text-align:  center;
+         }
+      }
+   }
+
+   &__desc {
+      font-weight: 400;
+      line-height: 32px;
+      max-width: 400px;
+      margin: 0 auto 30px;
+      text-align: center;
+      @media (max-width: 476px) {
+         max-width: 320px;
+      }
+      &-hero {
+         padding: 0;
+         max-width: 450px;
+         text-align: left;
+         margin: 0 0 30px;
+         @media (max-width: 1248px) {
+            text-align: center;
+            margin: 0 auto 30px;
+         }
+         @media (max-width: 476px) {
+            max-width: 320px;
+            margin: 0 0 20px;
+            text-align: left;
+         }
+      }
+      &-grid {
+         text-align: left;
+         margin: 0 0 0 80px;
+      }
+      &-form {
+         margin: 0 0 30px;
+         text-align: left;
+         @media (max-width: 1248px) {
+            text-align: center;
+            margin: 0 auto 30px;
+         }
+      }      
+   }
+}
+
